@@ -23,3 +23,4 @@ echo '<hr>';
 $array3 = array('key1'=> "value1", 'key2'=> "value2", 'key2'=> "value2");
 extract($array3);
 echo $key1;
+echo $key2;
