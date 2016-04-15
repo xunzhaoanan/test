@@ -17,3 +17,9 @@ echo $c;
 $d = reset($array2);
 echo $d;
 //print_r($array2);
+
+echo '<hr>';
+
+$array3 = array('key1'=> "value1", 'key2'=> "value2", 'key2'=> "value2");
+extract($array3);
+echo $key1;
